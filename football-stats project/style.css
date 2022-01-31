@@ -1,0 +1,106 @@
+html {
+    /* Base styles go here */
+    scroll-behavior: smooth;
+}
+   
+body {
+    font: 14px/1.5 Arial, sans-serif;
+    background: repeat url(bg1.jpg) ; 
+    background-size: cover;
+}
+
+
+.container{
+    background: rgba(0, 0, 0,0.7);
+    padding: 0 20px;
+    width: 1024px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.title{
+   text-align: center;
+   margin-bottom: 2.5rem;
+   margin-top: 1.5rem;
+   font-size: 2.5rem;
+   
+}
+.records{
+    padding-left: 2.5rem;
+}
+
+.match-type2{
+    color:rgb(159, 193, 194) ;
+    font-size:1rem;
+
+}
+
+.description {
+    color:rgb(212, 226, 85) ;
+    font-size:1.5rem;
+}
+.teams{
+    width: 11rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.logo{
+    display: inline-flex;
+    font-size: 2rem;
+    color: rgb(212, 226, 85);
+    align-items: center;
+    cursor: pointer;
+}
+
+.news{
+    display: inline-flex;
+    padding: 0.5rem;
+    align-items: center;
+    color: azure;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.select-elements{
+    display: inline-flex;
+    padding: 0.5rem;
+    align-items: center; 
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgba(0, 0, 0,0.5);
+    padding: 0 20px;
+    width: 1024px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+
+
+.button {
+    background-color: rgb(212, 226, 85); /* Green */
+    border: none;
+    color: white;
+     padding: 6px 14px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+.button1 {
+    color: black; 
+     border: 2px solid #b8ca19; 
+    border-radius: 30px;
+}
